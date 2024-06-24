@@ -1,0 +1,28 @@
+{
+  "name": "superexpressbackend",
+  "description": "这个是一个超级后端服务",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "source ~/.bash_profile && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.10.1",
+    "nodemon": "^3.0.2",
+    "tencentcloud-sdk-nodejs": "^4.0.754",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "redis": "^4.6.11"
+  }
+}
